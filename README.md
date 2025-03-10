@@ -1,5 +1,10 @@
 # pyrokit
 
+<p align="center">
+  <img src="https://github.com/nuhmanpk/pyrokit/blob/main/images/logo.jpeg?raw=true" width="400" height="400" />
+</p>
+
+## Usecase
 
 ```py
 API_ID = 123456           # Replace with your API_ID
