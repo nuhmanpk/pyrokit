@@ -4,9 +4,21 @@
   <img src="https://github.com/nuhmanpk/pyrokit/blob/main/images/logo.jpeg?raw=true" width="400" height="400" />
 </p>
 
+  ![PyPI](https://img.shields.io/pypi/v/pyrokit)
+  ![Downloads](https://img.shields.io/pypi/dm/pyrokit)
+  ![License](https://img.shields.io/github/license/nuhmanpk/pyrokit)
+  ![Dependencies](https://img.shields.io/librariesio/github/nuhmanpk/pyrokit)
+  ![Python Versions](https://img.shields.io/pypi/pyversions/pyrokit)
+  ![Known Vulnerabilities](https://snyk.io/test/github/nuhmanpk/pyrokit/badge.svg)
+  ![Last Commit](https://img.shields.io/github/last-commit/nuhmanpk/pyrokit)
+  ![Contributors](https://img.shields.io/github/contributors/nuhmanpk/pyrokit)
+
+
 ## Usecase
 
 ```py
+from pyrokit import PyroKit
+
 API_ID = 123456           # Replace with your API_ID
 API_HASH = "your_api_hash"  # Replace with your API_HASH
 TOKEN = "my_bot_session"
