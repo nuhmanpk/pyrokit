@@ -1,5 +1,5 @@
 import pathlib
-from setuptools import setup, find_packages
+import setuptools
 
 file = pathlib.Path(__file__).parent
 
@@ -8,7 +8,7 @@ README = (file / "README.md").read_text()
 requirements = (file / "requirements.txt").read_text().splitlines()
 
 
-setup(
+setuptools.setup(
     name="pyrokit",
     version="0.0.1",
     author="Nuhman Pk",
